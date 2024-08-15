@@ -18,7 +18,7 @@ offset_right = 889.0
 offset_bottom = 232.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "Textscrolling :D"
+text = "TEXTROLLING :D"
 placeholder_text = "Enter your text"
 
 [node name="Button" type="Button" parent="."]
@@ -36,6 +36,7 @@ grow_vertical = 0
 text = "Go!"
 
 [node name="FontSizeEdit" type="SpinBox" parent="."]
+visible = false
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -54,6 +55,7 @@ allow_greater = true
 allow_lesser = true
 
 [node name="Label" type="Label" parent="."]
+visible = false
 offset_left = 248.0
 offset_top = 281.0
 offset_right = 685.0
@@ -71,9 +73,9 @@ vertical_alignment = 1
 
 [node name="ScrollSpeedEdit" type="SpinBox" parent="."]
 offset_left = 685.0
-offset_top = 424.0
+offset_top = 304.0
 offset_right = 905.0
-offset_bottom = 518.0
+offset_bottom = 398.0
 max_value = 10.0
 step = 0.1
 value = 5.0
@@ -82,9 +84,9 @@ allow_lesser = true
 
 [node name="Label3" type="Label" parent="."]
 offset_left = 248.0
-offset_top = 424.0
+offset_top = 304.0
 offset_right = 693.0
-offset_bottom = 517.0
+offset_bottom = 397.0
 text = "Rolling speed"
 vertical_alignment = 1
 
