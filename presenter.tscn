@@ -330,10 +330,9 @@ color = Color(0, 0, 0, 1)
 [node name="RollingLabel" type="Label" parent="."]
 anchors_preset = -1
 offset_top = 303.0
-offset_right = 393.0
+offset_right = 1.0
 offset_bottom = 344.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "TEXTROLLING :D"
 label_settings = SubResource("LabelSettings_d4ve7")
 vertical_alignment = 1
