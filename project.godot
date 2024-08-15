@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="textrolling"
+run/main_scene="res://menu.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
+
+[autoload]
+
+State="*res://state.gd"
 
 [rendering]
 

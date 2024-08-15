@@ -1,0 +1,91 @@
+[gd_scene load_steps=2 format=3 uid="uid://dhfrr0rci2lxx"]
+
+[ext_resource type="Script" path="res://menu.gd" id="1_o2a7q"]
+
+[node name="Menu" type="Node2D"]
+script = ExtResource("1_o2a7q")
+metadata/_edit_vertical_guides_ = [249.0]
+
+[node name="TextEdit" type="TextEdit" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 685.0
+offset_top = 138.0
+offset_right = 889.0
+offset_bottom = 232.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Textscrolling :D"
+placeholder_text = "Enter your text"
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 873.0
+offset_top = 557.0
+offset_right = 1152.0
+offset_bottom = 643.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "Go!"
+
+[node name="FontSizeEdit" type="SpinBox" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 685.0
+offset_top = 280.0
+offset_right = 905.0
+offset_bottom = 374.0
+grow_horizontal = 2
+grow_vertical = 2
+min_value = 10.0
+max_value = 500.0
+value = 100.0
+allow_greater = true
+allow_lesser = true
+
+[node name="Label" type="Label" parent="."]
+offset_left = 248.0
+offset_top = 281.0
+offset_right = 685.0
+offset_bottom = 374.0
+text = "Font size"
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 248.0
+offset_top = 136.0
+offset_right = 685.0
+offset_bottom = 229.0
+text = "Text"
+vertical_alignment = 1
+
+[node name="ScrollSpeedEdit" type="SpinBox" parent="."]
+offset_left = 685.0
+offset_top = 424.0
+offset_right = 905.0
+offset_bottom = 518.0
+max_value = 10.0
+step = 0.1
+value = 5.0
+allow_greater = true
+allow_lesser = true
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 248.0
+offset_top = 424.0
+offset_right = 693.0
+offset_bottom = 517.0
+text = "Rolling speed"
+vertical_alignment = 1
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
