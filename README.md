@@ -6,7 +6,7 @@ A dead simple Android app built on the Godot that scrolls text on your screen. A
 
 Try to find an app on the Play Store that scrolls text on your screen and doesn't run ads ON EVERY SINGLE TAP. Not to mention each of the ads take about 10 seconds of your time, and an additional 2 taps to close it.
 
-I was once wanting to use it to show some text to a friend and couldn't bear the amount of ads being shown on top of a <marquee> tag.
+I was once wanting to use it to show some text to a friend and couldn't bear the amount of ads being shown on top of a `<marquee>` tag.
 
 ## I found a bug. Where do I report it?
 
