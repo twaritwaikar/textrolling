@@ -2,6 +2,8 @@
 
 A dead simple Android app built on Godot that scrolls text on your screen. AS SIMPLE AS THAT.
 
+![GIF 17-08-2024 01-28-32](https://github.com/user-attachments/assets/6aac6f04-3fea-4c2e-aa5d-94a3a8cb42a9)
+
 ## Why make this a whole different app?
 
 Try to find an app on the Play Store that scrolls text on your screen and doesn't run ads ON EVERY SINGLE TAP. Not to mention each of the ads take about 10 seconds of your time, and an additional 2 taps to close it.
