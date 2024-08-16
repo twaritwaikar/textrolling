@@ -17,3 +17,7 @@ func _process(delta):
 	label.position.x -= $"/root/State".get_rolling_speed() * delta / 0.016
 	if label.position.x + label.size.x < 0:
 		_reset_text()
+
+
+func _on_button_pressed():
+	get_tree().change_scene_to_file("res://menu.tscn")
