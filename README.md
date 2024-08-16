@@ -1,6 +1,6 @@
 # Textrolling
 
-A dead simple Android app built on the Godot that scrolls text on your screen. AS SIMPLE AS THAT.
+A dead simple Android app built on Godot that scrolls text on your screen. AS SIMPLE AS THAT.
 
 ## Why make this a whole different app?
 
